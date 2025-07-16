@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Education</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      background-color: rgb(3, 3, 5);
+      color: white;
+      font-family: 'Poppins', sans-serif;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+    }
+
+    nav {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      height: 100px;
+      background-color: rgb(3, 3, 48);
+    }
+
+    .left {
+      font-size: 1.8rem;
+    }
+
+    nav ul {
+      display: flex;
+      justify-content: center;
+    }
+
+    nav ul li {
+      list-style: none;
+      margin: 0 30px;
+    }
+
+    nav ul li a {
+      text-decoration: none;
+      color: white;
+      font-size: 1rem;
+    }
+
+    nav ul li a:hover {
+      color: yellow;
+    }
+
+    .firstSection {
+      display: flex;
+      flex: 1;
+      justify-content: space-around;
+      align-items: center;
+      padding: 50px 10%;
+    }
+
+    .firstSection>div {
+      flex: 1;
+    }
+
+    .leftSection {
+      font-size: 4rem;
+      border-right: 2px solid white;
+      text-align: center;
+      padding-right: 30px;
+    }
+
+    .rightSection {
+      padding-left: 40px;
+      font-size: 1.2rem;
+      line-height: 1.8;
+    }
+
+    .purple {
+      color: blueviolet;
+    }
+
+    @media (max-width: 768px) {
+      .firstSection {
+        flex-direction: column;
+        text-align: center;
+      }
+
+      .leftSection {
+        border-right: none;
+        border-bottom: 2px solid white;
+        padding-bottom: 20px;
+        margin-bottom: 30px;
+      }
+
+      .rightSection {
+        padding-left: 0;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <nav>
+      <div class="left">
+        <h3>Sourav's-Portfolio</h3>
+      </div>
+      <div class="right">
+        <ul>
+          <li><a href="Index.html">Home</a></li>
+          <li><a href="About.html">About</a></li>
+          <li><a href="Education.html">Education</a></li>
+          <li><a href="Project.html">Project</a></li>
+          <li><a href="Contact.html">Contact Me</a></li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+
+  <section class="firstSection">
+    <div class="leftSection">
+      <span class="purple">Education</span>
+    </div>
+
+    <div class="rightSection">
+      <p><strong>MCA</strong> from <strong>D Y Patil Institute of Federation, Development Management and Entrepreneurship , Pune</strong>, affiliated with <strong>Savitribai Phule University</strong>.</p>
+      <br>
+      <p><strong>BCA</strong> from <strong>P D V P College, Tasgaon</strong>, affiliated with <strong>Shivaji University</strong>.</p>
+    </div>
+  </section>
+</body>
+
+</html>

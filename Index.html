@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sourav-Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: rgb(3, 3, 5);
+            color: white;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 100px;
+            background-color: rgb(3, 3, 48);
+        }
+
+        .left {
+            font-size: 1.8rem;
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: center;
+        }
+
+        nav ul li {
+            list-style: none;
+            margin: 0 30px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+        }
+
+        nav ul li a:hover {
+            color: yellow;
+        }
+
+        .firstSection {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            margin: 60px 0;
+        }
+
+        .firstSection>div {
+            width: 40%;
+        }
+
+        .leftSection {
+            font-size: 3rem;
+        }
+
+        .leftSection .btn {
+            padding: 12px;
+            background-color: #1e2167;
+            color: white;
+            border: 2px solid white;
+            border-radius: 6px;
+            font-size: 20px;
+            cursor: pointer;
+
+        }
+
+        .leftSection .btn a {
+            text-decoration: none;
+            color: white;
+        }
+
+        .rightSection img {
+            width: 90%;
+            margin: 20px 0;
+        }
+
+        .purple {
+            color: blueviolet;
+        }
+
+        #element {
+            color: blueviolet
+        }
+
+        .SecondSection {
+            display: flex;
+            max-width: 80vw;
+            margin: auto;
+        }
+
+        main hr {
+            border: 0;
+            background: #9c97f1;
+            height: 1.2px;
+            margin: 60px 84px;
+        }
+
+        main h1 {
+            display: flex;
+            max-width: 80vw;
+            margin: auto;
+        }
+
+        .skillsSection {
+            width: 100%;
+            padding: 40px;
+            box-sizing: border-box;
+        }
+
+        .skillsSection h2 {
+            text-align: center;
+            font-size: 2.5rem;
+            margin-bottom: 30px;
+            text-transform: capitalize;
+        }
+
+        .skillsSection table {
+            width: 150%;
+            padding-left: 20%;
+            font-size: 20px;
+        }
+
+        .skillsSection th,
+        .skillsSection td {
+            border: 1px solid black;
+            padding: 12px;
+            text-align: left;
+        }
+
+        footer {
+            background-color: #0e0e1a;
+            height: 200px;
+        }
+
+        .footer {
+            display: flex;
+            padding: 23px 122px;
+            justify-content: space-evenly;
+        }
+
+        .footer li {
+            list-style: none;
+        }
+
+        .footer li a {
+            text-decoration: none;
+            color: rgb(185, 102, 218);
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left">
+                <h3>Sourav's-Portfolio</h3>
+            </div>
+            <div class="right">
+                <ul>
+                    <li> <a href="Index.html"> Home </a></li>
+                    <li><a href="About.html"> About </a></li>
+                    <li><a href="Education.html"> Education </a></li>
+                    <li><a href="Project.html"> Project </a></li>
+                    <li><a href="Contact.html"> Contact Me</a></li>
+                </ul>
+            </div>
+
+        </nav>
+    </header>
+
+    <main>
+        <section class="firstSection">
+            <div class="leftSection">Hey,My name is <span class="purple"> Sourav</span>
+                <div>and I am </div>
+                <span id="element"></span>
+                <div class="button">
+                    <button class="btn"><a href="resume_06.pdf">Download Resume</a></button>
+
+                </div>
+            </div>
+
+            <div class="rightSection">
+                <img src="bg4.png" alt="">
+            </div>
+        </section>
+        <hr>
+        <section class="skillsSection">
+            <h2>My Skills</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Languages & Tools</th>
+                        <th>Description</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Java</td>
+                        <td>Strong OOP, collections, JDBC, backend logic</td>
+                    </tr>
+                    <tr>
+                        <td>HTML & CSS</td>
+                        <td>Clean UI design and responsive layouts</td>
+                    </tr>
+                    <tr>
+                        <td>JavaScript</td>
+                        <td>Basic scripting and React.js for UI</td>
+                    </tr>
+                    <tr>
+                        <td>SQL / MySQL</td>
+                        <td>Data modeling, queries, joins</td>
+                    </tr>
+                    <tr>
+                        <td>Spring Boot</td>
+                        <td>REST APIs, JPA, layered architecture</td>
+                    </tr>
+                    <tr>
+                        <td>React.js</td>
+                        <td>Components, routing, props, state</td>
+                    </tr>
+                    <tr>
+                        <td>GitHub</td>
+                        <td>Code versioning, portfolio projects</td>
+                    </tr>
+                    <tr>
+                        <td>Postman</td>
+                        <td>Testing REST APIs and backend integration</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+        <footer>
+            <div class="footer">
+                <div class="footer-first">
+                    <h3>Sourav's Developer Portfolio</h3>
+                </div>
+                <div class="footer-second">
+                    <li>
+                        Instagram
+                    </li><br>
+                    <li>
+                        <a href="">aye__its__sourav</a>
+                    </li>
+                </div>
+                <div class="footer-third">
+                    <li>
+                        Twitter
+                    </li><br>
+                    <li>
+                        <a href="">SouravMote</a>
+                    </li>
+                </div>
+            </div>
+        </footer>
+
+
+    </main>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Web Developer', 'Web Designer', 'Java Full Stack',],
+            typeSpeed: 50,
+        });
+    </script>
+</body>
+
+</html>

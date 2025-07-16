@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Projects</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      background-color: rgb(3, 3, 5);
+      color: white;
+      font-family: 'Poppins', sans-serif;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+    }
+
+    nav {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      height: 100px;
+      background-color: rgb(3, 3, 48);
+    }
+
+    .left {
+      font-size: 1.8rem;
+    }
+
+    nav ul {
+      display: flex;
+      justify-content: center;
+    }
+
+    nav ul li {
+      list-style: none;
+      margin: 0 30px;
+    }
+
+    nav ul li a {
+      text-decoration: none;
+      color: white;
+      font-size: 1rem;
+    }
+
+    nav ul li a:hover {
+      color: yellow;
+    }
+
+    .projectSection {
+      padding: 60px 10%;
+    }
+
+    .projectSection h1 {
+      text-align: center;
+      font-size: 3rem;
+      color: blueviolet;
+      margin-bottom: 40px;
+    }
+
+    .project {
+      margin-bottom: 40px;
+    }
+
+    .project h2 {
+      font-size: 1.6rem;
+      color: #00ffff;
+    }
+
+    .project p {
+      font-size: 1.1rem;
+      line-height: 1.6;
+      margin-top: 10px;
+    }
+
+    @media (max-width: 768px) {
+      .projectSection {
+        padding: 30px 20px;
+      }
+
+      .project h2 {
+        font-size: 1.4rem;
+      }
+
+      .project p {
+        font-size: 1rem;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <nav>
+      <div class="left">
+        <h3>Sourav's-Portfolio</h3>
+      </div>
+      <div class="right">
+        <ul>
+          <li><a href="Index.html">Home</a></li>
+          <li><a href="About.html">About</a></li>
+          <li><a href="Education.html">Education</a></li>
+          <li><a href="Project.html">Project</a></li>
+          <li><a href="Contact.html">Contact Me</a></li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+
+  <section class="projectSection">
+    <h1>My Projects</h1>
+
+    <div class="project">
+      <h2>1. Employee Management System</h2>
+      <p>
+        Developed a full-stack web application to manage employee details including add, update, delete, and search functionalities. Built using React.js for the frontend, Spring Boot for the backend, and MySQL as the database. Tested using Postman.
+      </p>
+      <p><strong>Tech Used:</strong> React.js, Spring Boot, MySQL, Postman</p>
+    </div>
+
+    <div class="project">
+      <h2>2. Event Booking Portal</h2>
+      <p>
+        Created a CRUD-based portal where users can book, modify, and cancel event reservations. Built using PHP for the backend, JavaScript for client-side interactions, and MySQL for data storage.
+      </p>
+      <p><strong>Tech Used:</strong> PHP, MySQL, JavaScript</p>
+    </div>
+
+    <div class="project">
+      <h2>3. Cloud Kitchen Management</h2>
+      <p>
+        Designed a system to manage food orders, deliveries, and kitchen inventory. Developed using React.js for user interface and Java Spring Boot for backend logic.
+      </p>
+      <p><strong>Tech Used:</strong> React.js, Spring Boot, MySQL</p>
+    </div>
+  </section>
+</body>
+
+</html>
